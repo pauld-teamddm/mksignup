@@ -3,8 +3,7 @@
 Howdy!
 
  > I'm-a Wario. I'm-a gonna win!
- 
-_Wario_
+ > _Wario_
 
 ## Deploy
 
