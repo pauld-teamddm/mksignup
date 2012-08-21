@@ -5,14 +5,27 @@ class PlayersController extends CoreController{
 	
 	function add() {
 		try {
-			$player = new Player;
+			$email = strtolower(fRequest::get('email'));
 			$name = fRequest::get('name');
-			$player->setEmail(fRequest::get('email'));
-			$player->setName($name);
-			$player->setSlug(fURL::makeFriendly($name));
-			$player->store();
 			
-			fMessaging::create('success', '/players', "Thanks, {$name}, you've been added to the participant list!");
+			$players = fRecordSet::build('Player', array('email=' => $email));
+			
+			$msg = '';
+			if ($players->count() > 0) {
+				$player = $players->getRecord(0);
+				$name = $player->getName();
+				$msg = "Hey, pally! You already signed up! See yourself down there? It's the one labeled \"{$name}\".";
+			} else {
+				$player = new Player;
+				$player->setEmail(fRequest::get('email'));
+				$player->setName($name);
+				$player->setSlug(fURL::makeFriendly($name));
+				$player->store();
+				$msg = "Thanks, {$name}, you've been added to the participant list!";
+			}
+			
+			
+			fMessaging::create('success', '/players', $msg);
 			fURL::redirect('/players');
 		} catch (fExpectedException $e) {
 			echo $e->printMessage();
@@ -20,7 +33,7 @@ class PlayersController extends CoreController{
 	}
 	
 	function index() {
-		$this->template->set('players', fRecordSet::build('Player'));
+		$this->template->set('players', fRecordSet::build('Player', array(), array('name' => 'asc')));
 	}
 	
 	function display($player_slug) {
