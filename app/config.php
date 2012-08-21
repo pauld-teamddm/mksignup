@@ -1,5 +1,8 @@
 <?php
 
+// Local config things.
+define('SIGNUP_CUTOFF', 1345759200);
+
 // Bootstrap a few needed classes.
 include_once('markdown.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/../app/flourish/fFilesystem.php');
