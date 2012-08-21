@@ -14,5 +14,6 @@
 		<form class="signup-form well form-inline" method="post" action="/players/add">
 			<input type="text" name="name" placeholder="name"/> <input type="email" name="email" placeholder="email"/> <button type="submit" class="btn">Enter!</button>
 		</form>
+		<p><small>Signup will close at 5:00pm on Thursday, August 23 so play schedule can be determined.</small></p>
 	</div>
 </div>
