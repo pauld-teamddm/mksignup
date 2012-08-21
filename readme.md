@@ -14,3 +14,11 @@ Apache should point at the webroot directory.
 You'll also need to create an sqlite DB at app/db.sqlite3 and initialize with the provided schema.
 
 Then you'll have your very own MK64 Tournament Signup site! Huzzah!
+
+## Credits
+
+This site was bulit in [php](http://php.net).
+
+It uses [Flourish](http://flourishlib.com).
+
+The sweet MarioKart poster comes from [Jed Henry](http://mokuhankan.com/heroes/).
