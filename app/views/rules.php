@@ -10,6 +10,15 @@ The only tournament-related rule is the question of controller. We will
 only use original N64 controllers - no 3rd party or "turbo" controllers 
 will be allowed.
 
+## Chatter
+
+We're talking about the tournament on [irc at the #mk64 channel](irc://#mk64@dev.ddmnet.com).
+
+## Schedule
+
+The tournament is tentatively scheduled for Tuesday, August 28. Flag 
+waves at 5:30.
+
 ## Tournament Structure
 
 There are a few potential structures we could use for tournament play. 
