@@ -31,6 +31,5 @@
 <?php
 	endif;
 ?>
-		<p>Want to talk tournament? Head to the <a href="irc://#mk64@dev.ddmnet.com">#mk64 channel on IRC</a>.</p>
 	</div>
 </div>

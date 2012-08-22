@@ -63,6 +63,7 @@
 		?>
 			<hr/>
 			<footer class="footer">
+				<p>Want to talk tournament? Head to the <a href="irc://#mk64@dev.ddmnet.com">#mk64 channel on IRC</a>.</p>
 				<p><small>MK64 Tournament, 2012, run by <a href="mailto:pauld@teamddm.com">PD</a>.</small></p>
 			</footer>
 		</div> <!-- /container -->
