@@ -42,7 +42,7 @@
 					<div class="nav-collapse">
 						<ul class="nav pull-right">
 					<?php
-						$pages = array('index' => array('/', 'Signup'), 'rules' => array('/rules', 'Rules'), 'players' => array('/players', 'Participants'));
+						$pages = array('index' => array('/', 'Signup'), 'rules' => array('/rules', 'Rules'), 'players' => array('/players', 'Participants'), 'schedule' => array('/schedule', 'Schedule'));
 						$onPage = $this->get('onPage');
 						foreach ($pages as $name => $pageinfo) {
 							$liClass = ($name == $onPage) ? ' class="active"' : '';

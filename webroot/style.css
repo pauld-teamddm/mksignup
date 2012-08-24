@@ -20,6 +20,10 @@
 	font-size: 20px;
 }
 
+.well.division-blue {
+	background-color: #dff2ff;
+}
+
 /* Landscape phones and down */
 @media (max-width: 480px) {
 

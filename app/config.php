@@ -2,6 +2,7 @@
 
 // Local config things.
 define('SIGNUP_CUTOFF', 1345759200);
+define('DB_FILE', 'db.sqlite3');
 
 // Bootstrap a few needed classes.
 include_once('markdown.php');
@@ -38,5 +39,5 @@ function __autoload($class_name)
 	throw new Exception('The class ' . $class_name . ' could not be loaded');
 }
 
-$db = new fDatabase('sqlite', APP_ROOT . '/db.sqlite3');
+$db = new fDatabase('sqlite', APP_ROOT . '/' . DB_FILE);
 fORMDatabase::attach($db);

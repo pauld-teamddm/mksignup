@@ -21,27 +21,25 @@ waves at 5:30.
 
 ## Tournament Structure
 
-There are a few potential structures we could use for tournament play. 
-The candidates are as follows:
+### Qualifiers
 
-### Four-player qualifying rounds, Single-elimination One-on-One Playoffs
+ - Each division will play five rounds.
+ - Each round will have four of the five division players; which player sits out will be determined alphabetically by first name.
+ - Each round will play the full _Mushroom Cup_.
+ - Players will accumulate points from their cup placement.
 
-All players are sorted into four-player groups, and play the Mushroom Cup.
+### Semi-Finals
 
-Top two players from each Mushroom Cup will be seeded into the playoffs, 
-with rankings based on points earned playing the cup.
+ - Semifinal seeds will be the top two players of each division.
+ - Semifinal rounds will be two-player, head-to-head, plus computer players.
+ - Semifinals will be played on _Flower Cup_.
+ - Winner of the semifinal round will be named Champion of their division.
 
-Because it would be unfair to run any Cup without a full four players, 
-this format can only work well if there is a multiple of four players 
-entered.  However, I believe this would be extremely fun if the number
-of entrants allows.
+### Finals
 
-### Round Robin, Single-elimination One-on-One Playoffs
-
-Each player plays each other player, gaining a point for each win.
-
-The four players with the most points following all matches will be
-seeded into the playoffs.
+ - Final head-to-head match, Blue Champion vs Gray Champion.
+ - _Star Cup_.
+ - Ultimate winner will be crowned <strong>2012 MarioKart 64 Tournament Champion</strong>.
 
 TEXT;
 ?>

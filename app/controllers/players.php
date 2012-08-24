@@ -33,7 +33,9 @@ class PlayersController extends CoreController{
 	}
 	
 	function index() {
-		$this->template->set('players', fRecordSet::build('Player', array(), array('name' => 'asc')));
+		
+		$this->template->set('bluePlayers', fRecordSet::build('Player', array('division=' => 'Blue'), array('name' => 'asc')));
+		$this->template->set('grayPlayers', fRecordSet::build('Player', array('division=' => 'Gray'), array('name' => 'asc')));
 	}
 	
 	function display($player_slug) {
