@@ -12,7 +12,8 @@
 <?php
 		if ($endSignUp):
 ?>
-			<p>See the <a href="/players">players</a> and <a href="/schedule">schedule</a></p>
+			<p>See the <a href="/players">players</a></p>
+			<p>Round 1 Schedule will be announce Friday, August 24, at 5:00pm</p>
 <?php
 		else:
 ?>
