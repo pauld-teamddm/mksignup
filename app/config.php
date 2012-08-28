@@ -41,3 +41,4 @@ function __autoload($class_name)
 
 $db = new fDatabase('sqlite', APP_ROOT . '/' . DB_FILE);
 fORMDatabase::attach($db);
+fORM::mapClassToTable('Play', 'play');
