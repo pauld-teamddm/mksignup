@@ -1,8 +1,12 @@
 CREATE TABLE players (
 player_id INTEGER PRIMARY KEY AUTOINCREMENT,
 email VARCHAR(255) NOT NULL UNIQUE,
-name VARCHAR(255) NOT NULL
-, wins INT(11) DEFAULT 0, `slug` VARCHAR(255), matches int(11) default 0);
+name VARCHAR(255) NOT NULL,
+wins INT(11) DEFAULT 0,
+`slug` VARCHAR(255),
+matches int(11) default 0,
+points int(11) default 0
+);
 
 CREATE TABLE characters (
 `id` INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -19,4 +23,10 @@ CREATE TABLE `play` (
 `match` INTEGER DEFAULT 0,
 `division` VARCHAR(20) DEFAULT '',
 `points` INTEGER DEFAULT 0
+);
+
+CREATE TABLE rounds (
+`id` INTEGER PRIMARY KEY AUTOINCREMENT,
+`name` VARCHAR(255),
+`order` INTEGER DEFAULT 0
 );
