@@ -19,6 +19,8 @@ class PlayController extends CoreController{
 			
 			$player = new Player($player_id);
 			$points += $player->getPoints();
+			$matches = $player->getMatches() + 1;
+			$player->setMatches($matches);
 			$player->setPoints($points);
 			$player->store(); 
 			
