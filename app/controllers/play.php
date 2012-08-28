@@ -7,7 +7,7 @@ class PlayController extends CoreController{
 		try {
 			$player_id = fRequest::get('player_id');
 			$character_id = fRequest::get('character_id');
-			$points = fRequest::get('points');
+			$points = fRequest::get('points', 'integer');
 			$match = fRequest::get('match');
 			
 			$play = new Play;
@@ -16,6 +16,11 @@ class PlayController extends CoreController{
 			$play->setPoints($points);
 			$play->setMatch($match);
 			$play->store();
+			
+			$player = new Player($player_id);
+			$points += $player->getPoints();
+			$player->setPoints($points);
+			$player->store(); 
 			
 			fMessaging::create('success', '/entry', 'Result record saved.');
 			fURL::redirect('/entry');
