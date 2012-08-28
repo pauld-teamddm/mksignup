@@ -12,7 +12,7 @@
 			<p><strong>5:30: Blue, Round 1</strong></p>
 			
 			<ul>
-				<li>James</li>
+				<li>Matt</li>
 				<li>Jonah</li>
 				<li>MegCoBURNYOUWITHASHELL</li>
 				<li>Paul DeLeeuw</li>
@@ -27,7 +27,7 @@
 			<ul>
 				<li>Grant</li>
 				<li>J-DUB</li>
-				<li>paul warren</li>
+				<li>Donna</li>
 				<li>Stephanie</li>
 			</ul>
 		</div>
@@ -53,7 +53,7 @@
 			<ul>
 				<li>Craig</li>
 				<li>J-DUB</li>
-				<li>paul warren</li>
+				<li>Donna</li>
 				<li>Stephanie</li>
 			</ul>
 		</div>
@@ -65,7 +65,7 @@
 			
 			<ul>
 				<li>D.K.</li>
-				<li>James</li>
+				<li>Matt</li>
 				<li>MegCoBURNYOUWITHASHELL</li>
 				<li>Paul DeLeeuw</li>
 			</ul>
@@ -79,7 +79,7 @@
 			<ul>
 				<li>Craig</li>
 				<li>Grant</li>
-				<li>paul warren</li>
+				<li>Donna</li>
 				<li>Stephanie</li>
 			</ul>
 		</div>
@@ -91,7 +91,7 @@
 			
 			<ul>
 				<li>D.K.</li>
-				<li>James</li>
+				<li>Matt</li>
 				<li>Jonah</li>
 				<li>Paul DeLeeuw</li>
 			</ul>
@@ -117,7 +117,7 @@
 		
 			<ul>
 				<li>D.K.</li>
-				<li>James</li>
+				<li>Matt</li>
 				<li>Jonah</li>
 				<li>MegCoBURNYOUWITHASHELL</li>
 			</ul>
@@ -132,7 +132,7 @@
 				<li>Craig</li>
 				<li>Grant</li>
 				<li>J-DUB</li>
-				<li>paul warren</li>
+				<li>Donna</li>
 			</ul>
 		</div>
 	</div>
